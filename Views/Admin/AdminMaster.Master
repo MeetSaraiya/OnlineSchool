@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="OnlineSchool.Views.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../Assets/Lib/css/bootstrap.min.css" rel="stylesheet" />
+ 
+    <style type="text/css">
+        *{
+            font-family:Poppins;
+        }
+        .auto-style5 {
+            width: 40px;
+            height: 40px;
+            margin-right:200px;
+            padding:5px;
+            
+        }
+
+    </style>
+ 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height:636px;">
+        <div class="col-md-2" style="background-color:crimson">
+            <div class="row mb-4" >
+
+                <div class="col-md-3">
+                    <img src="../../Assets/Images/ddu.jpeg" class="auto-style5" />  
+
+                 </div>
+                <div class="col-md-6 pt-2">
+                    <label class="text-white h5 text-center">DDU</label>
+
+                </div>
+              </div>
+            <div class="row mb-2 mt-5" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/dashboard.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                    <label class="text-white h5">Dashboard</label>
+
+                </div>
+              </div>
+            <div class="row mb-2" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/teaching.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                   <a href="Teachers.aspx"> <label class="text-white h5">Teacchers</label></a>
+
+                </div>
+              </div>
+            <div class="row mb-2" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/student.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                  <a href="Students.aspx" > <label class="text-white h5">Students</label></a>
+
+                </div>
+              </div>
+            <div class="row mb-2" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/3819669.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                  <a href="Marks.aspx">  <label class="text-white h5">Marks</label></a>
+
+                </div>
+              </div>
+            <div class="row mb-2" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/1048953.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                <a href="Schedules.aspx">  <label class="text-white h5">Schedules</label></a>
+
+                </div>
+              </div>
+            <div class="row mb-2" >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/department.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                   <a href="Departments.aspx"> <label class="text-white h5">Department</label></a>
+
+                </div>
+              </div>
+            <div class="row mb-2 mt-5 " >
+
+                <div class="col-md-2">
+                    <img src="../../Assets/Images/logout.png" class="auto-style5"  />
+
+                 </div>
+                <div class="col-md-6 pt-1">
+                    <a href="../Login.aspx">  <label class="text-white h5">Logout</label> </a>
+
+                </div>
+              </div>
+            </div>
+        
+
+        <div class="col md-10">
+                <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        </div>
+     </div> 
+         </div>  
+</body>
+</html>

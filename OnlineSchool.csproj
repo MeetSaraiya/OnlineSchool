@@ -67,13 +67,130 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\10455354.png" />
+    <Content Include="Assets\Images\1048953.png" />
+    <Content Include="Assets\Images\3819669.png" />
+    <Content Include="Assets\Images\check-out.png" />
+    <Content Include="Assets\Images\dashboard.png" />
+    <Content Include="Assets\Images\ddu.jpeg" />
+    <Content Include="Assets\Images\department.png" />
+    <Content Include="Assets\Images\logout.png" />
+    <Content Include="Assets\Images\student.png" />
+    <Content Include="Assets\Images\teaching.png" />
+    <Content Include="Assets\Lib\css\bootstrap-grid.css" />
+    <Content Include="Assets\Lib\css\bootstrap-grid.min.css" />
+    <Content Include="Assets\Lib\css\bootstrap-reboot.css" />
+    <Content Include="Assets\Lib\css\bootstrap-reboot.min.css" />
+    <Content Include="Assets\Lib\css\bootstrap.css" />
+    <Content Include="Assets\Lib\css\bootstrap.min.css" />
+    <Content Include="Assets\Lib\js\bootstrap.bundle.js" />
+    <Content Include="Assets\Lib\js\bootstrap.bundle.min.js" />
+    <Content Include="Assets\Lib\js\bootstrap.js" />
+    <Content Include="Assets\Lib\js\bootstrap.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Views\Admin\Departments.aspx" />
+    <Content Include="Views\Admin\Marks.aspx" />
+    <Content Include="Views\Admin\Schedules.aspx" />
+    <Content Include="Views\Admin\Students.aspx" />
+    <Content Include="Views\Admin\Teachers.aspx" />
+    <Content Include="Views\Login.aspx" />
+    <Content Include="Views\Students\Dashboard.aspx" />
+    <Content Include="Views\Students\ViewSchedule.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Departments.aspx.cs">
+      <DependentUpon>Departments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Departments.aspx.designer.cs">
+      <DependentUpon>Departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Marks.aspx.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Marks.aspx.designer.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.designer.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Students.aspx.cs">
+      <DependentUpon>Students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Students.aspx.designer.cs">
+      <DependentUpon>Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Teachers.aspx.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Teachers.aspx.designer.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Students\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Students\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Students\StudentsMaster.Master.cs">
+      <DependentUpon>StudentsMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Students\StudentsMaster.Master.designer.cs">
+      <DependentUpon>StudentsMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Students\ViewSchedule.aspx.cs">
+      <DependentUpon>ViewSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Students\ViewSchedule.aspx.designer.cs">
+      <DependentUpon>ViewSchedule.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Lib\css\bootstrap-grid.css.map" />
+    <Content Include="Assets\Lib\css\bootstrap-grid.min.css.map" />
+    <Content Include="Assets\Lib\css\bootstrap-reboot.css.map" />
+    <Content Include="Assets\Lib\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Assets\Lib\css\bootstrap.css.map" />
+    <Content Include="Assets\Lib\css\bootstrap.min.css.map" />
+    <Content Include="Assets\Lib\js\bootstrap.bundle.js.map" />
+    <Content Include="Assets\Lib\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Assets\Lib\js\bootstrap.js.map" />
+    <Content Include="Assets\Lib\js\bootstrap.min.js.map" />
+    <Content Include="Assets\Images\admin-line-icon-dashboard-simple-260nw-2257637463.webp" />
     <None Include="packages.config" />
+    <Content Include="Views\Admin\AdminMaster.Master" />
+    <None Include="Views\editorconfig" />
+    <Content Include="Views\Students\StudentsMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,6 +198,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
