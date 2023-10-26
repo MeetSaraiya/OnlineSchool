@@ -1,5 +1,5 @@
 # OnlineSchool
-this is our dotnet core MVC project
+this is our dotnet framework project
 
 this is online school management system created in asp.net framework.
 
